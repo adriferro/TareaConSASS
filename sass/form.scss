@@ -1,0 +1,134 @@
+:root {
+    --h1-font-size:3rem;
+    --span-font-size:1.5rem;
+    --h2-font-size:2rem;
+  }
+  
+  @media (width < 1024px) {
+    :root {
+      --h1-font-size:2.5rem;
+      --span-font-size:1.25rem;
+      --h2-font-size:1.5rem;
+    }
+  }
+  
+  @media (width < 768px) {
+    :root {
+      --h1-font-size:2rem;
+      --span-font-size:1rem;
+      --h2-font-size:1rem;
+    }
+  }
+  
+  @media (width < 428px) {
+    :root {
+      --h1-font-size:1.5rem;
+      --span-font-size:0.75rem;
+      --h2-font-size:0.75rem;
+    }
+  }
+  
+  .form-container {
+    background-color: rgb(35, 35, 35);
+    width: 70%;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 1rem;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 97%;
+  }
+  
+  input {
+    background-color: rgb(77, 77, 77);
+    color: white;
+    margin-top: 1rem;
+    width: 80%;
+    border-radius: 7px;
+    padding-left: 30px;
+    height: 2rem;
+  }
+  
+  textarea {
+    background-color: rgb(77, 77, 77);
+    color: white;
+    margin-top: 1rem;
+    width: 80%;
+    border-radius: 7px;
+    padding-left: 30px;
+    height: 2rem;
+    height: 7rem;
+  }
+  
+  .btn {
+    color: white;
+    margin: 0 auto;
+    width: 70px;
+    background-color: rgba(0, 95, 178, 0.921);
+    height: 30px;
+    border-radius: 7px;
+    padding: 5px;
+    margin-top: 10px;
+  }
+  
+  body {
+    background-color: rgb(130, 130, 130);
+  }
+  
+  .title-text {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: var(--h1-font-size);
+    text-align: center;
+    margin-top: 10vh;
+  }
+  
+  span {
+    font-size: var(--span-font-size);
+    padding: 5px;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .second-title-text {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: var(--h2-font-size);
+    text-align: center;
+  }
+  
+  li {
+    list-style: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: var(--h2-font-size);
+    text-align: center;
+    margin-top: 1rem;
+    color: rgb(255, 0, 0);
+  }
+  
+  a {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+  }
+  
+  footer {
+    text-align: center;
+    background-color: #000000;
+    padding: 1rem;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    color: #ffffff;
+  }
+  
+  header {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    background-color: rgb(0, 22, 37);
+    color: white;
+  }
+  

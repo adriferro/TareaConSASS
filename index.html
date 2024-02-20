@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Profesional</title>
+    <link rel="stylesheet" href="/styles/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <div class="hamburger">
+            <div class="_layer -top"></div>
+            <div class="_layer -mid"></div>
+            <div class="_layer -bottom"></div>
+        </div>
+        <nav class="menuppal">
+            <ul>
+              <li><a href="/index.html">INICIO</a></li>
+              <li><a href="https://www.iaea.org/es/newscenter/news/que-es-la-energia-nuclear-la-ciencia-de-la-energia-nucleoelectrica">ACERCA DE</a></li>
+              <li><a href="/templates/form.html">CONTACTO</a></li>
+            </ul>
+          </nav>
+    </header>
+
+    <div class="hero-container">
+        <video autoplay loop muted>
+            <source src="/video/brown_coal.mp4" type="video/mp4">
+        </video>
+        <div class="hero-text">
+            <h1>Energía Nuclear</h1>
+        </div>
+    </div>
+
+    <div class="description">
+        <div class="description-text">
+            <hr>
+            <h2>Descripción</h2>
+            <p>La energía nuclear es un tipo de energía generada mediante la fisión nuclear de átomos, liberando una
+                gran cantidad de calor. Este calor se utiliza para producir vapor, que impulsa turbinas conectadas a
+                generadores eléctricos. Destaca por su alta densidad energética, generando grandes cantidades de
+                electricidad con una pequeña cantidad de combustible nuclear.
+            </p>
+        </div>
+    </div>
+
+    <div class="main-container">
+        <div class="advantage">
+            <div class="main-container-text">
+                <h2>Ventajas</h2>
+                <p>La energía nuclear destaca por su alta densidad energética, generando grandes cantidades de
+                    electricidad con poca cantidad de combustible, lo que la hace eficiente en recursos. Además,
+                    presenta bajas emisiones de gases de efecto invernadero en comparación con las centrales de
+                    combustibles fósiles, contribuyendo a la mitigación del cambio climático. Asimismo, ofrece un
+                    suministro continuo de electricidad, siendo menos dependiente de factores climáticos que algunas
+                    fuentes de energía renovable.</p>
+            </div>
+        </div>
+        <div class="disadvantage">
+            <div class="main-container-text">
+                <h2>Inconvenientes</h2>
+                <p>La energía nuclear conlleva desafíos significativos, como la gestión a largo plazo de residuos
+                    radioactivos, que plantea dificultades técnicas y sociales. Además, existe el riesgo
+                    extremadamente raro pero grave de accidentes nucleares, como los desastres de Chernobyl y
+                    Fukushima, lo que subraya la constante preocupación por la seguridad nuclear. La construcción de
+                    plantas nucleares es costosa, lleva mucho tiempo y puede ser prohibitiva en términos de
+                    inversiones iniciales y riesgos financieros para algunos países o empresas. La evaluación de las
+                    ventajas e inconvenientes de la energía nuclear puede variar según la perspectiva y las
+                    circunstancias locales.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-carousel">
+        <div class="carruseles" id="slider">
+            <section class="slider-section">
+                <img src="img/1.jpg">
+            </section>
+            <section class="slider-section">
+                <img src="img/2.jpg">
+            </section>
+            <section class="slider-section">
+                <img src="img/3.jpg">
+            </section>
+            <section class="slider-section">
+                <img src="img/4.jpg">
+            </section>
+            <section class="slider-section">
+                <img src="img/5.jpg">
+            </section>
+            <section class="slider-section">
+                <img src="img/6.jpg">
+            </section>
+            <section class="slider-section">
+                <img src="img/7.jpg">
+            </section>
+            <section class="slider-section">
+                <img src="img/8.jpg">
+            </section>
+            <section class="slider-section">
+                <img src="img/9.jpg">
+            </section>
+            <section class="slider-section">
+                <img src="img/10.jpg">
+            </section>
+        </div>
+        <div class="btn-left"><i class='bx bx-chevron-left'></i></div>
+        <div class="btn-right"><i class='bx bx-chevron-right'></i></div>
+    </div>
+
+    <button onclick="darkMode()">SWITCH MODE</button>
+
+    <audio controls autoplay>
+        <source src="/audio/La Roja Baila.mp3" type="audio/mpeg">
+    </audio>
+
+    <footer>
+        <h3>¿Quieres saber más?</h3>
+        <p>Visita la página de la <a href="https://www.miteco.gob.es/es/energia/nuclear.html">Ministerio para la transición ecológica y el reto demográfico</a>
+        </p>
+        <img src="/img/footer-icon.png" alt="Escudo España">
+    </footer>
+
+    <script src="/scripts/darkMode.js"></script>
+    <script src="/scripts/hamburguer.js"></script>
+    <script src="/scripts/carousel.js"></script>
+</body>
+
+</html>

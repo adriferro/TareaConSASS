@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO</title>
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="hamburger">
+            <div class="_layer -top"></div>
+            <div class="_layer -mid"></div>
+            <div class="_layer -bottom"></div>
+        </div>
+        <nav class="menuppal">
+            <ul>
+              <li><a href="/index.html">INICIO</a></li>
+              <li><a href="https://www.iaea.org/es/newscenter/news/que-es-la-energia-nuclear-la-ciencia-de-la-energia-nucleoelectrica">ACERCA DE</a></li>
+              <li><a href="/templates/form.html">CONTACTO</a></li>
+            </ul>
+          </nav>
+    </header>
+
+    <div class="title-text">
+        <h1>Objeto Form</h1>
+    </div>
+
+    <div class="second-title-text">
+        <h2>Contáctanos</h2>
+    </div>
+
+    <div class="form-container">
+        <form action="/templates/enviado.html" method="get" id="formulario">
+            <input type="text" id="nombre" name="nombre" placeholder="Nombre">
+            <input type="text" id="apellidos" name="apellidos" placeholder="Apellidos">
+            <input type="text" id="telefono" name="telefono" placeholder="Teléfono">
+            <input type="text" id="correo" name="correo" placeholder="Correo electrónico">
+            <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Por favor, inserta un mensaje"></textarea><br>
+            <input type="submit" value="Enviar" class="btn">
+
+            <ul id="errores"></ul>
+        </form>
+    </div>
+
+    <footer>
+        <h3>¿Quieres saber más?</h3>
+        <p>Visita la página de la <a href="https://www.miteco.gob.es/es/energia/nuclear.html">Ministerio para la transición ecológica y el reto demográfico</a>
+        </p>
+        <img src="/img/footer-icon.png" alt="Escudo España">
+    </footer>
+
+    <script src="/scripts/form.js"></script>
+    <script src="/scripts/hamburguer.js"></script>
+</body>
+</html>
