@@ -1,3 +1,6 @@
+// Adrián Fernández Rodríguez
+// https://github.com/adriferro/TareaConSASS.git
+
 const btnLeft = document.querySelector(".btn-left"),
       btnRight = document.querySelector(".btn-right"),
       slider = document.querySelector("#slider"),

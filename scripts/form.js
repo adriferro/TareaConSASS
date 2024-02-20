@@ -1,3 +1,6 @@
+// Adrián Fernández Rodríguez
+// https://github.com/adriferro/TareaConSASS.git
+
 const formulario = document.getElementById("formulario")
 const nombre = document.getElementById("nombre")
 const apellidos = document.getElementById("apellidos")
